@@ -43,7 +43,7 @@
         // Потому 5 строго равно 6? - НЕТ
 
         let i = undefined + 1;
-        // undefined значение не определено значит его нет , + 1 = 1. 
+        // undefined переводится в тип данных number. В результате получим Nan + 1 = всё так же Nan.
 
         let j = (+null == false) < 1;
         // +null = 0 = false. - это true.  false == false - не строго равно да. поэтому это true
